@@ -9,3 +9,4 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 
 ![alt text](Wireshark for Beginners-Capture Packets/Screenshots/Recent Stable Release.webp)
 
+
