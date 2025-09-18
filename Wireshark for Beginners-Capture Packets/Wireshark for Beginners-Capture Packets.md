@@ -14,5 +14,21 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 
 ![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/26501b3ec805e2ecdeef6ea28210b347a898b4c5/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Add%20User%20to%20Wireshark%20Group.webp)
 
+## Task 2: Start a Packet Capture on an Ethernet Port and Save It to File
+* Using Wireshark, the wired interface includes the ethernet packet capture
+
+![alt text](Ethernet image)
+
+* Start the packet capture by clicking the blue fin in the top left corner
+* To stop the packet capture click the red stop icon
+
+![alt text](Stop packet image)
+
+* Wireshark allows users to save the packet capture
+* Saving a capture is only possible when the capture has stopped
+
+![alt text](Save packet image)
+
+
 
 
