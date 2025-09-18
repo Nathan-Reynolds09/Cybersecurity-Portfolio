@@ -65,6 +65,24 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 
 * When the destination IP is entered, duckduckgo.com is the site associated with the IP
 
+## Task 4: Visit a Webpage and Detect its IP Address Using a Display Filter
+
+* We can find the IP address for Google by doing the same steps in Task 4
+* We can use a TLS handshake display filter to identify a website visit within a packet list: `tls.handshake.type ==1`
+
+
+
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/cbd4b503ec32a7ddf975c170b879cbad1aa10288/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/TLS%20Handshake.png)
+
+
+
+* A specific IP address is utilized as a filter to retrieve packet information for a particular website: `ip.addr == 34.120.208.123`
+
+
+
+
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/cbd4b503ec32a7ddf975c170b879cbad1aa10288/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/IP%20Address%20Filter.png)
+
 
 
 
