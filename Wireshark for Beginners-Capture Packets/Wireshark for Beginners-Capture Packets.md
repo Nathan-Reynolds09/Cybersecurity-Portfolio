@@ -84,8 +84,10 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 ![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/cbd4b503ec32a7ddf975c170b879cbad1aa10288/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/IP%20Address%20Filter.png)
 
 
+# Task 5: Locate all HTTPS Packets From a Capture Not Containing a Certain IP Address
 
+* Start a packet capture and navigate to Google and DuckDuckGo in two separate tabs, then stop the capture and save it to a file
+* A conditional statement may be used to include and eliminate packets from a Wireshark capture: `!(ip.addr == 142.251.16.138) and (tcp.port == 443)`. This will show all HTTPS packets, except for the packets containing the certain IP address
+* A compound conditional statement should include parentheses to avoid order of execution erros
 
-
-
-
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/8b54ae3f1c6ddb0f9bfc593f16febeb4442de3c1/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Not%20IP%20Address%20and%20Port%20443.png)
