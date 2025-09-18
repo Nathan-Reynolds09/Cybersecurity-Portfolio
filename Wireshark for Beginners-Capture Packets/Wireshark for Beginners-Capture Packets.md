@@ -12,6 +12,7 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 * Wireshark should not be run as a superuser for security reasons.
 * The user can be added to the Wireshark group to add packet capture capabilities: `sudo usermod -aG wireshark $USER`
 
-![alt text]()
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/26501b3ec805e2ecdeef6ea28210b347a898b4c5/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Add%20User%20to%20Wireshark%20Group.webp)
+
 
 
