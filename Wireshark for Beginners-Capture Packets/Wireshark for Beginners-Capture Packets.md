@@ -17,17 +17,18 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 ## Task 2: Start a Packet Capture on an Ethernet Port and Save It to File
 * Using Wireshark, the wired interface includes the ethernet packet capture
 
-![alt text](Ethernet image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/bf9d5ca505d0615148d1ecf04b9840fca587315a/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Wired%20Interface.png)
 
 * Start the packet capture by clicking the blue fin in the top left corner
 * To stop the packet capture click the red stop icon
 
-![alt text](Stop packet image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/bf9d5ca505d0615148d1ecf04b9840fca587315a/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Stop%20Packet%20Capture.png)
 
 * Wireshark allows users to save the packet capture
 * Saving a capture is only possible when the capture has stopped
 
-![alt text](Save packet image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/bf9d5ca505d0615148d1ecf04b9840fca587315a/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Save%20Capture.png)
+
 
 
 
