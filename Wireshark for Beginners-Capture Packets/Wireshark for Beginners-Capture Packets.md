@@ -34,6 +34,20 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 
 ![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/bf9d5ca505d0615148d1ecf04b9840fca587315a/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Save%20Capture.png)
 
+## Task 3: Use a Display Filter to Detect HTTPS Packets
+
+* Using what was learned in Task 3, start a packet capture and go to duckduckgo.com while the packet capture is running. When the site it loaded, stop the packet capture and save it to a file
+* To diplay only HTTPS traffic, use a filter on port 443: `tcp.port == 443`
+* After applying the display filter, look for the TLSv protocol that says `Client Hello`
+
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/a6543c90056d84564da0e3674f69306741a35a10/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Display%20Filter.png)
+
+* Take the destination IP you see for the TLSv protocol and enter it into the browser
+
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/a6543c90056d84564da0e3674f69306741a35a10/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Enter%20IP%20Address.png)
+
+* When the destination IP is entered, duckduckgo.com is the site associated with the IP
+
 
 
 
