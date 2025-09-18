@@ -47,7 +47,7 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 ## Task 3: Use a Display Filter to Detect HTTPS Packets
 
 * Using what was learned in Task 3, start a packet capture and go to duckduckgo.com while the packet capture is running. When the site it loaded, stop the packet capture and save it to a file
-* To diplay only HTTPS traffic, use a filter on port 443: `tcp.port == 443`
+* To display only HTTPS traffic, use a filter on port 443: `tcp.port == 443`
 * After applying the display filter, look for the TLSv protocol that says `Client Hello`
 
 
@@ -90,5 +90,6 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 * A compound conditional statement should include parentheses to avoid order of execution errors
 
 ![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/8b54ae3f1c6ddb0f9bfc593f16febeb4442de3c1/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Not%20IP%20Address%20and%20Port%20443.png)
+
 
 
