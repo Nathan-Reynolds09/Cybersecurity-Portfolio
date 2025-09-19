@@ -28,7 +28,7 @@ New projects will be added regularly, as I continue to learn and grow in the cyb
 ## 💡 About Me
 I am currently a student at the University of Central Florida pursuing a Bachelor's in Information Technology. With a solid foundation in cybersecurity, I am motivated on helping organizations mitigate risks and defend against cyber threats. I’m eager to apply my knowledge to tackle challenging security issues in real-world environments.
 
-## 🗨️ Contact Me
+## 🗨️ Contact
 Linkedin: [Nathan Reynolds](https://www.linkedin.com/in/nathan-reynolds09/) <br>
 Email: reynoldsnate10@gmail.com <br>
 
