@@ -90,6 +90,14 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 
 ![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/8b54ae3f1c6ddb0f9bfc593f16febeb4442de3c1/Wireshark%20for%20Beginners-Capture%20Packets/Screenshots/Not%20IP%20Address%20and%20Port%20443.png)
 
-
+## :white_check_mark Skills Practiced
+* Network Protocols
+* TCP/IP
+* General Networking
+* Network Security 
+* Software Installastion 
+* Network Monitoring 
+* Network Analysis 
+* Linux
 
 
