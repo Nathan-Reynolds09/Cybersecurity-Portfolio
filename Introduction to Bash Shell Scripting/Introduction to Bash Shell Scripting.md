@@ -71,12 +71,12 @@ In this project I will learn several Bash shell commands that will allow me to n
 * Use touch to create files in the backups directory: `touch backups/file1` `touch backups/file2`
 * Use `ls -l backups` to look at what is in the backups directory
 
-![alt text](backups directory image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/32c511c5cb8b105b6a2ff51f8c66f9c5428a0a6d/Introduction%20to%20Bash%20Shell%20Scripting/Images/backups%20directory.png)
 
 * To delete the directory use `rm -ir backups`
 * `-ir` is used for added protection since it will ask you if you want to delete the contents in the directory one by one
 
-![alt text](delete backups)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/32c511c5cb8b105b6a2ff51f8c66f9c5428a0a6d/Introduction%20to%20Bash%20Shell%20Scripting/Images/delete%20backups.png)
 
 * Create two new directories and add a file in the directory:
   * `mkdir newDir`
@@ -86,6 +86,7 @@ In this project I will learn several Bash shell commands that will allow me to n
 * `2>/dev/null` tells the shell to take error input and redirect it to `/dev/null` where it's deleted
 * Grep tells the shell to look for a regular expression
 
-![alt text](find file image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/32c511c5cb8b105b6a2ff51f8c66f9c5428a0a6d/Introduction%20to%20Bash%20Shell%20Scripting/Images/find%20file.png)
 
 ## Task 4: Aliases
+
