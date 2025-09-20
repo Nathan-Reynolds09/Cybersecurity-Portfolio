@@ -49,20 +49,43 @@ In this project I will learn several Bash shell commands that will allow me to n
 * To create a file called 'myBashScript', input `touch myBashScript`
 * To make sure the file is there you can type `ls -l myBashScript`
 
-![alt text](touch image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/9d0d63339e4858fec5c4a614e495940fb283258d/Introduction%20to%20Bash%20Shell%20Scripting/Images/touch.png)
 
 * To change the name of 'myBashScript' to 'muchBetterName', type `mv myBashScript muchBetter Name`
 * You can check to see if it worked by typing `ls -l`
 
-![alt text](change name image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/9d0d63339e4858fec5c4a614e495940fb283258d/Introduction%20to%20Bash%20Shell%20Scripting/Images/change%20name.png)
 
 * You can delete the 'muchBetterName' file by using `rm muchBetterName`
 * You can use `cat` on the command line to view the contents of any text file `cat kinglear.txt`
 
-![alt text](view file image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/9d0d63339e4858fec5c4a614e495940fb283258d/Introduction%20to%20Bash%20Shell%20Scripting/Images/view%20file.png)
 
 * To edit the file contents use `nano kinglear.txt`
 
-![alt text](edit file image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/9d0d63339e4858fec5c4a614e495940fb283258d/Introduction%20to%20Bash%20Shell%20Scripting/Images/edit%20file.png)
 
 ## Task 3: Finding Information
+* To create a new directory called 'newDir' input `mkdir newDir`
+* To change the name of the directory to 'backups' use `mv newDir backups`
+* Use touch to create files in the backups directory: `touch backups/file1` `touch backups/file2`
+* Use `ls -l backups` to look at what is in the backups directory
+
+![alt text](backups directory image)
+
+* To delete the directory use `rm -ir backups`
+* `-ir` is used for added protection since it will ask you if you want to delete the contents in the directory one by one
+
+![alt text](delete backups)
+
+* Create two new directories and add a file in the directory:
+  * `mkdir newDir`
+  * `mkdir newDir/backups`
+  * `touch newDir/backups/cleanbackup`
+* Then go to the root directory to find the file with 'backup' in the name that appears somwhere in the user directory: `find / -name "*backup*" 2>dev/null | grep $USER`
+* `2>/dev/null` tells the shell to take error input and redirect it to `/dev/null` where it's deleted
+* Grep tells the shell to look for a regular expression
+
+![alt text](find file image)
+
+## Task 4: Aliases
