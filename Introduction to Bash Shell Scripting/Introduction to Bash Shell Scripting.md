@@ -13,12 +13,12 @@ In this project I will learn several Bash shell commands that will allow me to n
 * Echo means print and the string shell is the variable that refrences the shell
 * The terminal returns the path to the shell in use, which for this case it's bash
 
-![alt text](echo shell image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/d2b8157d8564ace4907ffc71f9562baf5d57902f/Introduction%20to%20Bash%20Shell%20Scripting/Images/echo%20shell.png)
 
 * To see what files and directories are available, input `ls` into the terminal
 * This will list visible files in the directory you are currently in
 
-![alt text](ls image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/d2b8157d8564ace4907ffc71f9562baf5d57902f/Introduction%20to%20Bash%20Shell%20Scripting/Images/ls.png)
 
 * You can use options on commands to expand how that command functions, for example `ls -al`
 * `ls` is the command and `-al` is the option
@@ -31,16 +31,38 @@ In this project I will learn several Bash shell commands that will allow me to n
 * The next column tells you the files size in bytes, then the date it was last accessed
 * The final column states the file or directory name
 
-![alt text](ls -al image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/d2b8157d8564ace4907ffc71f9562baf5d57902f/Introduction%20to%20Bash%20Shell%20Scripting/Images/ls%20-al.png)
   
 * Type `cd /` to get to your root directory
 * You can type `ls -l` to see what is in this directory
 * Then you can input `cd` to change directory and then input `pwd` to show that you are back in your user directory
 
-![alt text](cd 1 image)
-![alt text](cd 2 image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/d2b8157d8564ace4907ffc71f9562baf5d57902f/Introduction%20to%20Bash%20Shell%20Scripting/Images/cd%201.png)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/d2b8157d8564ace4907ffc71f9562baf5d57902f/Introduction%20to%20Bash%20Shell%20Scripting/Images/cd%202.png)
 
 * To go up one directory, type `cd ..` In this case we go to /home.
 * Another way to go back to your user directory is by using `cd coder`
 
-![alt text](cd .. image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/d2b8157d8564ace4907ffc71f9562baf5d57902f/Introduction%20to%20Bash%20Shell%20Scripting/Images/cd%20...png)
+
+## Task 2: Manipulating Files
+* To create a file called 'myBashScript', input `touch myBashScript`
+* To make sure the file is there you can type `ls -l myBashScript`
+
+![alt text](touch image)
+
+* To change the name of 'myBashScript' to 'muchBetterName', type `mv myBashScript muchBetter Name`
+* You can check to see if it worked by typing `ls -l`
+
+![alt text](change name image)
+
+* You can delete the 'muchBetterName' file by using `rm muchBetterName`
+* You can use `cat` on the command line to view the contents of any text file `cat kinglear.txt`
+
+![alt text](view file image)
+
+* To edit the file contents use `nano kinglear.txt`
+
+![alt text](edit file image)
+
+## Task 3: Finding Information
