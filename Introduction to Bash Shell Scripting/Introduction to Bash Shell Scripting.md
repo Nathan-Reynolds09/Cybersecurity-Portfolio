@@ -4,7 +4,6 @@ In this project I will learn several Bash shell commands that will allow me to n
 * Navigating file directories
 * Viewing, editing, creating, deleting, and renaming files on the command line and with text editing tools
 * Finding information about files, logs, command history, and file paths
-* Editing user aliases to personalize the environment
 * Creating a script to back up the user directory
 * Automating scripts with cron
 
@@ -27,7 +26,7 @@ In this project I will learn several Bash shell commands that will allow me to n
 * The series of r's, w's, x's, and dashes after defines:
   * who has what kind of access to that file or directory
   * who can read, write, and execute
-* The two columns that say 'coder' are the users and the groups
+* The two columns that say 'coder' are the user and the groups
 * The next column tells you the files size in bytes, then the date it was last accessed
 * The final column states the file or directory name
 
@@ -88,5 +87,35 @@ In this project I will learn several Bash shell commands that will allow me to n
 
 ![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/32c511c5cb8b105b6a2ff51f8c66f9c5428a0a6d/Introduction%20to%20Bash%20Shell%20Scripting/Images/find%20file.png)
 
-## Task 4: Aliases
+## Task 4: Writing a Shell Script
+* Create a script that is going to back up our dev directory and email it
+* Create a backup script file: `nano myBackup`
+* Within the script file input:
+  * `#!/bin/bash`, which is a note to the interpreter that this is a bash shell script
+  * a comment that says what the script is for, `# myBackup: backup utility for dev directory`
+  * create varibles for backup path and home path, `BACKUP_PATH = "/home/coder/dev/"` `HOME_PATH = "/home/coder/"`
+  * Use the date command and assign it to a variable, `DATE = 'date +%d%m%Y'`
+  * Define that part of the filename to say 'backup_' and the file to end with '.tar', `BACKUP ="backup_"` `EXT = ".tar"`
+  * Put the parts of the filename we've defined together to make a variable that holds the whole name, `FILE_NAME = $HOME_PATH$BACKUP$DATE$EXT`
+  * Use `echo $FILE_NAME` to see if the filename is working
+
+![alt text](myBackup script file image)
+
+* Type `chmod u=rwx myBackup` to give user full access to the file
+* use `chod go=rx myBackup` to give group and others only read and execute permissions
+
+![alt text](permissions image)
+
+* Run the file by typing `./myBackup`
+
+![alt text](run file image)
+
+* Edit the 'myBackup' file and input `tar cfz $FILE_NAME $BACKUP_PATH`. This tells tar to create a file with our file name and use our backup path to do so
+* Comment out the echo since we do not need it anymore
+
+![alt text](tar image)
+
+## Task 5: Bash Scripting and Creating a Cron Job with Crontab
+
+
 
