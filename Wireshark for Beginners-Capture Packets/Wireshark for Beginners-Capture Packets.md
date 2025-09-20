@@ -95,7 +95,7 @@ In this lab I will learn how to set up and use Wireshark to capture, save, and f
 * TCP/IP
 * General Networking
 * Network Security 
-* Software Installastion 
+* Software Installation
 * Network Monitoring 
 * Network Analysis 
 * Linux
