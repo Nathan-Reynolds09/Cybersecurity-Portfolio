@@ -119,11 +119,21 @@ In this project I will learn several Bash shell commands that will allow me to n
 * To tell the shell to send an email to a Gmail address with the subject 'Today's Backup' and attach the tar-zipped file input, `if test -f "$FILE_NAME"; then echo "Here's your daily backup" | mail -A $FILE_NAME -s "Today's Backup" coderdevkl@gmail.com`
 * Create an else statement that runs if the backup file does not exist: `else echo $DATE " There was as problem creating the backup file." >> $HOME_PATH/error.log fi`
 
-![alt text](if else statement image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/20fbd507e45e1f38825215b7a199c4547edab17b/Introduction%20to%20Bash%20Shell%20Scripting/Images/if%20else%20statement.png)
 
 * Use `crontab -e` to set up a crontab
 * To program the crontab type `0 2 * * * home/coder/myBackup` within the crontab. This means that the script will run at 2am daily
 * To delete all crontabs on your user account use `crontab -r`
 * You can use shortcuts in crontab such as '@annually command', '@monthly command', '@weekly command', '@daily command', and '@hourly command'
 
+## ✅ Skills Practiced
+* Scripting
+* Linux
+* Bash
+* Unix
+* Command-Line Interface
+* Shell Script
+* Unix Shell
+* File Systems
+* File Management
 
