@@ -99,23 +99,31 @@ In this project I will learn several Bash shell commands that will allow me to n
   * Put the parts of the filename we've defined together to make a variable that holds the whole name, `FILE_NAME = $HOME_PATH$BACKUP$DATE$EXT`
   * Use `echo $FILE_NAME` to see if the filename is working
 
-![alt text](myBackup script file image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/99454fe3eb2856d58b96fd993c4ba55100da151c/Introduction%20to%20Bash%20Shell%20Scripting/Images/myBackup%20script%20file.png)
 
 * Type `chmod u=rwx myBackup` to give user full access to the file
 * use `chod go=rx myBackup` to give group and others only read and execute permissions
 
-![alt text](permissions image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/99454fe3eb2856d58b96fd993c4ba55100da151c/Introduction%20to%20Bash%20Shell%20Scripting/Images/permissions.png)
 
 * Run the file by typing `./myBackup`
 
-![alt text](run file image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/99454fe3eb2856d58b96fd993c4ba55100da151c/Introduction%20to%20Bash%20Shell%20Scripting/Images/run%20file.png)
 
 * Edit the 'myBackup' file and input `tar cfz $FILE_NAME $BACKUP_PATH`. This tells tar to create a file with our file name and use our backup path to do so
 * Comment out the echo since we do not need it anymore
 
-![alt text](tar image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/99454fe3eb2856d58b96fd993c4ba55100da151c/Introduction%20to%20Bash%20Shell%20Scripting/Images/tar.png)
 
 ## Task 5: Bash Scripting and Creating a Cron Job with Crontab
+* To tell the shell to send an email to a Gmail address with the subject 'Today's Backup' and attach the tar-zipped file input, `if test -f "$FILE_NAME"; then echo "Here's your daily backup" | mail -A $FILE_NAME -s "Today's Backup" coderdevkl@gmail.com`
+* Create an else statement that runs if the backup file does not exist: `else echo $DATE " There was as problem creating the backup file." >> $HOME_PATH/error.log fi`
 
+![alt text](if else statement image)
+
+* Use `crontab -e` to set up a crontab
+* To program the crontab type `0 2 * * * home/coder/myBackup` within the crontab. This means that the script will run at 2am daily
+* To delete all crontabs on your user account use `crontab -r`
+* You can use shortcuts in crontab such as '@annually command', '@monthly command', '@weekly command', '@daily command', and '@hourly command'
 
 
