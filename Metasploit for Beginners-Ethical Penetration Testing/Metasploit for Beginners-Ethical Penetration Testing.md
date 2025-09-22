@@ -12,8 +12,36 @@ There are some pre-requisite steps to take in order to complete this project
 
 ## Task 1: Use Nmap to Scan for Vulerable Services
 * Make sure you have both the attacker machine (Kali Linux) and the target machine (Metasploitable) up and running through VMWare
+* Type `ip a` into the target machine to find the ip address: `192.168.57.129`
+* On the attacker machine input `ping 192.168.57.129` to make sure that the machines are connected
+
+![alt text](ping image)
+
 * Type `nmap -h` into the terminal on Kali Linux to view the manual for nmap.
 
-![alt text](nmap h image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/b77c9c4c469402b02334e3543d8cd45cd239f221/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/nmap%20h.PNG)
+
+* To perform a nmap scan type `nmap 192.168.57.129`
+* Take note on how many ports there are and how many are open. The more open ports there are, the bigger attack surface
+
+![alt text](nmap scan image)
+
+* To perform a more in-depth scan use `nmap -sC 192.168.57.129`
+* This will give way more information than just if a port is open or closed
+
+![alt text](nmap sC image)
+
+* Add `-sV` into the scan by inputing `nmap -sC -sV 192.168.57.129`
+* `-sV` stands for version number
+* For example, from the scan we found out at the ftp service has a version number of 'vsftpd 2.3.4'
+* This is important because knowing this version number threat actors can look up whether it is outdated, exploitable, and work from there to try to break the machine
+
+![alt text](nmap sV image)
+
+## Task 2: Vulnerability Research with Google Dorking
+
+
+
+
 
 
