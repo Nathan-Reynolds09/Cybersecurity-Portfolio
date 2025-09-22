@@ -68,15 +68,26 @@ There are some pre-requisite steps to take in order to complete this project
 * Input `search vsftpd 2.3.4` into the Metasploit console
 * We will see there is only one module for this particular version
 
-![alt text](search vsftpd 2.3.4 image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/1ffb9dadd5295e3f6dbc54bb8539c2d1e725e9f2/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/search%20vsftps%202.3.4.PNG)
 
 * In order to load this module input `use 0`
 * There will be a change in the command line
-* Input `show options` into the terminal to view the list of things we need to configure in order to properly execute out attack
+* Input `show options` into the terminal to view the list of things we need to configure in order to properly execute our attack
 
-![alt text](show options image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/1ffb9dadd5295e3f6dbc54bb8539c2d1e725e9f2/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/show%20options.PNG)
 
 ## Task 5: Configure Your First Metasploit Module
+* In order to run our attack, we have to configure `RHOSTS` to be the correct IP address and then exploit it
+* To do this type `set rhosts 192.168.57.129`
+* To make sure that we have configured `RHOSTS` input `show options` again in the terminal and we should see the IP address next to `RHOSTS`
+
+![alt text](rhosts image)
+
+* Now that the attack is pointed to the right machine all we need to do is type `exploit` for the attack to run
+
+![alt text](exploit image)
+
+## Task 6: Establishing Persistence
 
 
 
