@@ -15,7 +15,7 @@ There are some pre-requisite steps to take in order to complete this project
 * Type `ip a` into the target machine to find the ip address: `192.168.57.129`
 * On the attacker machine input `ping 192.168.57.129` to make sure that the machines are connected
 
-![alt text](ping image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/a0294060f801e3b3fb96deeb17ddab1e41bfd65d/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/ping.PNG)
 
 * Type `nmap -h` into the terminal on Kali Linux to view the manual for nmap.
 
@@ -24,21 +24,38 @@ There are some pre-requisite steps to take in order to complete this project
 * To perform a nmap scan type `nmap 192.168.57.129`
 * Take note on how many ports there are and how many are open. The more open ports there are, the bigger attack surface
 
-![alt text](nmap scan image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/a0294060f801e3b3fb96deeb17ddab1e41bfd65d/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/nmap%20scan.PNG)
 
 * To perform a more in-depth scan use `nmap -sC 192.168.57.129`
 * This will give way more information than just if a port is open or closed
 
-![alt text](nmap sC image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/a0294060f801e3b3fb96deeb17ddab1e41bfd65d/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/nmap%20sC.PNG)
 
 * Add `-sV` into the scan by inputing `nmap -sC -sV 192.168.57.129`
 * `-sV` stands for version number
-* For example, from the scan we found out at the ftp service has a version number of 'vsftpd 2.3.4'
-* This is important because knowing this version number threat actors can look up whether it is outdated, exploitable, and work from there to try to break the machine
+* For example, from the scan we found out that the ftp service has a version number of `vsftpd 2.3.4`
+* This is important because by knowing this version number we can look up whether it is outdated, exploitable, and work from there to try to break the machine
 
-![alt text](nmap sV image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/a0294060f801e3b3fb96deeb17ddab1e41bfd65d/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/nmap%20sV.PNG)
 
 ## Task 2: Vulnerability Research with Google Dorking
+* We are going to find resources that give us information about the version number we found from before
+* Open Firefox and type in `vsftpd 2.3.4 vulnerability site:rapid7.com`
+* `site:rapid7.com` makes it so all the search results are from Rapid7
+
+![alt text](rapid7 image)
+
+* By clicking on the first site, we can find out that this version number was disclosed in 2011, which means that it is an old vulnerability
+* We can also find instructions on how to use and exploit this Metasploi module
+
+![alt text](metasploit module image)
+
+## Task 3: Introduction to Metasploit
+
+
+
+
+
 
 
 
