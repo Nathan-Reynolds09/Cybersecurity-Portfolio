@@ -43,22 +43,26 @@ There are some pre-requisite steps to take in order to complete this project
 * Open Firefox and type in `vsftpd 2.3.4 vulnerability site:rapid7.com`
 * `site:rapid7.com` makes it so all the search results are from Rapid7
 
-![alt text](rapid7 image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/b5d6bae9527b78149a3a086ce6a8ba010b244b22/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/rapid7.PNG)
 
 * By clicking on the first site, we can find out that this version number was disclosed in 2011, which means that it is an old vulnerability
-* We can also find instructions on how to use and exploit this Metasploi module
+* We can also find instructions on how to use and exploit this Metasploit module
 
-![alt text](metasploit module image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/b5d6bae9527b78149a3a086ce6a8ba010b244b22/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/metasploit%20module.PNG)
 
 ## Task 3: Introduction to Metasploit
+* To start up Metasploit input `msfconsole`
+* One piece of information we get is all the modules listed
 
+![alt text](modules image)
 
+* Input`help` into the terminal to see commands in Metasploit
+* Some commands will look familiar because some of the commands are also Linux commands
+* You will see some commands that only exist within Metasploit itself
+* In order to get out of the Metasploit terminal, simply type `exit`
 
+![alt text](help image)
 
-
-
-
-
-
+## Task 4: Load Your First Metasploit Module
 
 
