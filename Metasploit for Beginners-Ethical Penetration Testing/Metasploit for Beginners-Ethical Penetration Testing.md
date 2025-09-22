@@ -10,6 +10,10 @@ There are some pre-requisite steps to take in order to complete this project
 3. Upload the Metaploitable2 Machine to VMWare [Download for Metasploit2](https://sourceforge.net/projects/metasploitable/) [Walkthrough for Metaploitable2](https://www.youtube.com/watch?v=LnRgCop4jkk)
 4. Connect the Boxes in VMWare so They Can Ping Each Other [Guide](https://www.ubackup.com/enterprise-backup/how-to-connect-one-virtual-machine-to-another.html)
 
-## Task 1
+## Task 1: Use Nmap to Scan for Vulerable Services
+* Make sure you have both the attacker machine (Kali Linux) and the target machine (Metasploitable) up and running through VMWare
+* Type `nmap -h` into the terminal on Kali Linux to view the manual for nmap.
+
+![alt text](nmap h image)
 
 
