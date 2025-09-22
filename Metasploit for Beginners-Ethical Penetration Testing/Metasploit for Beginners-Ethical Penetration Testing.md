@@ -54,15 +54,29 @@ There are some pre-requisite steps to take in order to complete this project
 * To start up Metasploit input `msfconsole`
 * One piece of information we get is all the modules listed
 
-![alt text](modules image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/7cab135143499e72300ead8dedf6dd93bfd12efb/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/modules.PNG)
 
 * Input`help` into the terminal to see commands in Metasploit
 * Some commands will look familiar because some of the commands are also Linux commands
 * You will see some commands that only exist within Metasploit itself
 * In order to get out of the Metasploit terminal, simply type `exit`
 
-![alt text](help image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/7cab135143499e72300ead8dedf6dd93bfd12efb/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/help.PNG)
 
 ## Task 4: Load Your First Metasploit Module
+* Get back into the Metasploit console by typing `msfconsole`
+* Input `search vsftpd 2.3.4` into the Metasploit console
+* We will see there is only one module for this particular version
+
+![alt text](search vsftpd 2.3.4 image)
+
+* In order to load this module input `use 0`
+* There will be a change in the command line
+* Input `show options` into the terminal to view the list of things we need to configure in order to properly execute out attack
+
+![alt text](show options image)
+
+## Task 5: Configure Your First Metasploit Module
+
 
 
