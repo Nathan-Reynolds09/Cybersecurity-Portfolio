@@ -92,16 +92,26 @@ There are some pre-requisite steps to take in order to complete this project
 * In order to do this type `adduser backdoor`
 * It will prompt you to create a password and enter some information about the user. We don't have to fill out the information, so I kept all of it blank
 
-![alt text](backdoor user image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/83a9db51cde9d287fa9ce936c9e5bf6335e324d8/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/backdoor%20user.PNG)
 
 * Now we can login to the account we just created. We can do that by opening another tab and typing `ssh -oHostKeyAlgorithms=+ssh-rsa backdoor@192.168.57.129` and it will ask for the password you previously created, which in this case is 'pass'
 
-![alt text](login image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/83a9db51cde9d287fa9ce936c9e5bf6335e324d8/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/login.PNG)
 
 ## Task 7: Report Our Findings
 * We are going to fill out a Penetration Testing Report showcasing all of our findings to an organization called AeroTech who we tested for vulnerabilities
+* You can view the report under the **Penetration Testing Report.pdf** file in the **Metasploit for Beginners-Ethical Penetration Testing** folder
 
-![You can view the report here](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/cdabd635f420435b760a98b37043de0c4267c72c/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Penetration%20Testing%20Report.pdf)
+## ✅ Skills Practiced
+* Vulnerability Assessments
+* Virtual Machines
+* Linux
+* Exploitation Techniques
+* Metasploit
+* Data Ethics
+* Technical Documentation
+* Penetration Testing
+* Vulnerability Scanning
 
 
 
