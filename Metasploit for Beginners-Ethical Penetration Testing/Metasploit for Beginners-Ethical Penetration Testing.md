@@ -101,5 +101,7 @@ There are some pre-requisite steps to take in order to complete this project
 ## Task 7: Report Our Findings
 * We are going to fill out a Penetration Testing Report showcasing all of our findings to an organization called AeroTech who we tested for vulnerabilities
 
+![You can view the report here](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/cdabd635f420435b760a98b37043de0c4267c72c/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Penetration%20Testing%20Report.pdf)
+
 
 
