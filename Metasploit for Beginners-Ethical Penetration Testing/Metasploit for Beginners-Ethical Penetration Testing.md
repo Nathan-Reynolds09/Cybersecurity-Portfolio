@@ -81,13 +81,25 @@ There are some pre-requisite steps to take in order to complete this project
 * To do this type `set rhosts 192.168.57.129`
 * To make sure that we have configured `RHOSTS` input `show options` again in the terminal and we should see the IP address next to `RHOSTS`
 
-![alt text](rhosts image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/f05aaebd73a0c89a06eadd72b21c73c7b24c068d/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/rhosts.PNG)
 
 * Now that the attack is pointed to the right machine all we need to do is type `exploit` for the attack to run
 
-![alt text](exploit image)
+![alt text](https://github.com/Nathan-Reynolds09/Cybersecurity-Portfolio/blob/f05aaebd73a0c89a06eadd72b21c73c7b24c068d/Metasploit%20for%20Beginners-Ethical%20Penetration%20Testing/Images/exploit.PNG)
 
 ## Task 6: Establishing Persistence
+* We have to create a backdoor account to allow us to log back into the system more easily in the future
+* In order to do this type `adduser backdoor`
+* It will prompt you to create a password and enter some information about the user. We don't have to fill out the information, so I kept all of it blank
+
+![alt text](backdoor user image)
+
+* Now we can login to the account we just created. We can do that by opening another tab and typing `ssh -oHostKeyAlgorithms=+ssh-rsa backdoor@192.168.57.129` and it will ask for the password you previously created, which in this case is 'pass'
+
+![alt text](login image)
+
+## Task 7: Report Our Findings
+* We are going to fill out a Penetration Testing Report showcasing all of our findings to an organization called AeroTech who we tested for vulnerabilities
 
 
 
