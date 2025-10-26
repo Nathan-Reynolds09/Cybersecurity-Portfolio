@@ -1,5 +1,5 @@
-## 🛡️ Cybersecurity Portfolio
-Welcome to my cybersecurity portfolio! This repository showcases a variety of hands-on projects and real-world labs from cybersecurity certifications. The portfolio highlights practical skills in network analysis, scripting, and penetration testing.
+## 🛡️ Information Technology Portfolio
+Welcome to my information technology portfolio! This repository showcases a variety of hands-on projects and real-world labs from information technology certifications. The portfolio highlights practical skills in network analysis, scripting, and penetration testing.
 
 ## 📂 About This Portfolio
 This portfolio features practical, project-based experience gained through Coursera guided projects. The projects demonstrated are:
@@ -19,14 +19,14 @@ This portfolio features practical, project-based experience gained through Cours
 * Technical Documentation
 
 ## 📌 Future Projects
-New projects will be added regularly, as I continue to learn and grow in the cybersecurity field. I am eager to keep learning all there is to know about being a security analyst!
+New projects will be added regularly, as I continue to learn and grow. I am eager to keep learning all there is to know about pursuing a career in IT!
 
 ## 📈 Certifications
 * Foundation of Cybersecurity - Google
 * Play It Safe: Manaage Security Risks - Google
 
 ## 💡 About Me
-I am currently a student at the University of Central Florida pursuing a Bachelor's in Information Technology. With a solid foundation in cybersecurity, I am motivated on helping organizations mitigate risks and defend against cyber threats. I’m eager to apply my knowledge to tackle challenging security issues in real-world environments.
+I am currently a student at the University of Central Florida pursuing a Bachelor's degree in Information Technology. With a strong foundation in IT concepts and practical skills, I’m passionate about using technology to solve problems, improve efficiency, and support organizational goals. I’m eager to apply my knowledge and continue learning through hands-on experience in real-world IT environments.
 
 ## 🗨️ Contact
 Linkedin: [Nathan Reynolds](https://www.linkedin.com/in/nathan-reynolds09/) <br>
