@@ -22,8 +22,9 @@ This portfolio features practical, project-based experience gained through Cours
 New projects will be added regularly, as I continue to learn and grow. I am eager to keep learning all there is to know about pursuing a career in IT!
 
 ## 📈 Certifications
-* Foundation of Cybersecurity - Google
-* Play It Safe: Manaage Security Risks - Google
+* Technical Support Fundamentals - Google (Oct 2025)
+* Foundation of Cybersecurity - Google (Sep 2025)
+* Play It Safe: Manaage Security Risks - Google (Sep 2025)
 
 ## 💡 About Me
 I am currently a student at the University of Central Florida pursuing a Bachelor's degree in Information Technology. With a strong foundation in IT concepts and practical skills, I’m passionate about using technology to solve problems, improve efficiency, and support organizational goals. I’m eager to apply my knowledge and continue learning through hands-on experience in real-world IT environments.
